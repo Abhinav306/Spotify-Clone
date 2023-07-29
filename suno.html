@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suno-Dil Ki Awaaj</title>
+    <link rel="stylesheet" type="text/css" href="suno.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class ="logo"><img src="Images/Spotify_Logo.png"><span>Sunoo</span></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Premium</li>
+            <li>Help</li>
+            <li class="search"><input type="search"><button id="search-btn"><img src="Images/search.png"></button></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>My Favourities</h1>
+            <div class="songitemcontainer">
+                <div class="songItem">
+                    <img src="Images/1.jpg" alt="1">
+                    <span>Kesariya</span>
+                    <span class="songlistplay"><span class="timestamp">4:41<i id=0 class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/2.jpg" alt="1">
+                    <span>Juda Hokar bhi_Shasavat</span>
+                    <span class="songlistplay"><span class="timestamp">2:52<i id=1 class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/3.jpg" alt="1">
+                    <span>Juda Hoke Bhi</span>
+                    <span class="songlistplay"><span class="timestamp">1:31<i id=2 class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/4.jpg" alt="1">
+                    <span>O re piya_Shasavat</span>
+                    <span class="songlistplay"><span class="timestamp">2:09<i id=3 class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/5.jpg" alt="1">
+                    <span>Tere Liye_Shasavat</span>
+                    <span class="songlistplay"><span class="timestamp">4:06<i id=4 class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/6.jpg" alt="1">
+                    <span>Closer</span>
+                    <span class="songlistplay"><span class="timestamp">1:52<i id=5 class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/7.jpg" alt="1">
+                    <span>Tum hi ho_Shasavat</span>
+                    <span class="songlistplay"><span class="timestamp">4:11<i id=6 class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/8.jpg" alt="1">
+                    <span>Mann Mera</span>
+                    <span class="songlistplay"><span class="timestamp">2:24<i id=7 class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/9.jpg" alt="1">
+                    <span>Khaamosiyan</span>
+                    <span class="songlistplay"><span class="timestamp">2:39<i id=8 class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/10.jpg" alt="1">
+                    <span>main Hoon Sath Tere</span>
+                    <span class="songlistplay"><span class="timestamp">5:36<i id=9 class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+               
+                
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+   <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" max="100">
+        <div class="icons">
+            <!-- font awesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="Images/songplaying.gif" width="50px" alt="" id="gif"><span id="masterSongName"> Hoke Bhi-Shasavat</span>
+        </div>
+   </div>
+
+
+
+
+   <script src="https://kit.fontawesome.com/0c239164f3.js" crossorigin="anonymous"></script>
+    <script src="suno.js"></script>
+</body>
+</html>
